@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
 //import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight, Star, Users, Printer, ShoppingBag } from 'lucide-react';
