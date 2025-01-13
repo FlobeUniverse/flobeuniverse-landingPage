@@ -74,7 +74,7 @@ const Navbar = () => {
           className="flex items-center"
           whileHover={{ scale: 1.05 }}
         >
-          <img src={mainlogo} alt="FlobeUniverse" className="h-8 sm:h-10" />
+          <img src={mainlogo} alt="FlobeUniverse" className="h-7" />
         </motion.div>
 
         {/* Desktop Navigation */}
