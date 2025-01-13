@@ -1,6 +1,6 @@
 //import React from 'react';
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import { Input } from "@/Components/ui/input";
+import { Button } from "@/Components/ui/button";
 import { Instagram, Twitter, Facebook, Mail } from 'lucide-react';
 import { motion } from 'framer-motion';
 
