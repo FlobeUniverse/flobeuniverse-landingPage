@@ -5,7 +5,7 @@ import img1 from "../assets/ImageDisplay2.png";
 const Whocanuse = () => {
   return (
     <div className="px-[5%] lg:px-[15%]">
-      <div className="text-center py-12 lg:py-32 text-white">
+      <div className="2xl:container mx-auto text-center py-12 lg:py-32 text-white">
         <div>
           <h3 className="text-4xl lg:text-6xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 py-3 px-3 to-white">
             Who Can Use FlobeUniverse?
@@ -20,7 +20,7 @@ const Whocanuse = () => {
             <div
               className={`${
                 index % 2 == 0 ? "lg:flex-row" : "lg:flex-row-reverse"
-              } ${index > 0 && "mt-20"} flex flex-col gap-5`}
+              } ${index > 0 && "mt-32"} flex flex-col gap-5`}
             >
               <div className="lg:w-1/2">
                 <div className="flex gap-1">

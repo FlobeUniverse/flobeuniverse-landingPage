@@ -47,14 +47,14 @@ const Footer = () => {
 
   return (
     <motion.footer 
-      className="w-full  relative overflow-hidden"
+      className="w-full relative overflow-hidden px-[5%] lg:px-[3%]"
       initial="hidden"
       animate="visible"
       variants={containerVariants}
     >
       {/* Animated Background Elements */}
       <motion.div 
-        className="absolute top-20 left-20 w-32 h-32 bg-blue-500/5 rounded-full blur-3xl"
+      className="absolute top-20 left-20 w-32 h-32 bg-blue-500/5 rounded-full blur-3xl"
         animate={{ 
           y: [0, -20, 0],
           x: [0, 10, 0]
@@ -78,7 +78,7 @@ const Footer = () => {
         }}
       />
 
-      <div className="mx-auto px-4 sm:px-6 lg:px-[5%] py-16 relative">
+      <div className="2xl:container mx-auto  py-16 relative">
         <motion.div 
           className="grid grid-cols-1 md:grid-cols-4 gap-12"
           variants={containerVariants}

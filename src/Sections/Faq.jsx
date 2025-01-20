@@ -22,7 +22,7 @@ const Faq = () => {
                 )
               }
               key={index}
-              className="py-2"
+              className="py-2 cursor-pointer"
             >
               <div className="flex items-center justify-between w-full p-2">
                 <h3 className="text-lg">{faq.question}</h3>

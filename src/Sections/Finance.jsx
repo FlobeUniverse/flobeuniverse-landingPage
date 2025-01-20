@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Finance = () => {
   return (
     <div className="px-[5%] lg:px-[15%] py-16 bg-[#0f56a1]">
-      <div className="2xl:container flex flex-col-reverse lg:flex-row gap-10">
+      <div className="2xl:container mx-auto flex flex-col-reverse lg:flex-row gap-10">
         <div className="lg:w-[60%] rounded-lg overflow-hidden">
           <img src={img1} alt="" />
         </div>
