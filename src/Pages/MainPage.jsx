@@ -51,7 +51,7 @@ const MainPage = () => {
         >
           <div className="2xl:container mx-auto">
             <div className="text-center mx-auto">
-              <h2 className="text-4xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-600 py-3 px-3 to-white font-bold">
+              <h2 className="text-4xl lg:text-6xl bg-clip-text text-white font-bold">
                 Online Printing Marketplace
               </h2>
               <p className="text-sm lg:text-base mt-5 text-slate-300 lg:max-w-[60%] mx-auto">
@@ -59,7 +59,7 @@ const MainPage = () => {
                 creative visions to life. Our platform enables printing presses
                 to showcase and sell custom merchandise and packaging
               </p>
-              <div className="mt-10 bg-black/70 lg:w-1/2 rounded-lg px-14 py-10 mx-auto text-white">
+              <div className="mt-10 lg:w-1/2 rounded-lg px-14 py-10 mx-auto text-white">
                 <h3 className="text-xl lg:text-3xl font-bold">
                   Join Our Waitlist
                 </h3>
@@ -73,7 +73,7 @@ const MainPage = () => {
                     className="py-2 rounded-full px-4 text-black placeholder-gray-500 font-semibold w-full lg:w-fit"
                     placeholder="Enter Email"
                   />
-                  <button className="text-sm px-5 py-2 bg-white/65 rounded-full w-full lg:w-fit">
+                  <button className="text-sm px-5 py-2 bg-blue-600 rounded-full w-full lg:w-fit">
                     Join Our Waitlist
                   </button>
                 </div>
@@ -111,7 +111,7 @@ const MainPage = () => {
         </div>
 
         {/* Features Section */}
-        <div className="py-20 px-[5%] lg:px-[10%]">
+        {/* <div className="py-20 px-[5%] lg:px-[10%]">
           <div className="2xl:container mx-auto">
             <div className="text-center mb-16 px-4">
               <h2 className="text-4xl font-bold text-white">
@@ -158,10 +158,10 @@ const MainPage = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Social Proof Section */}
-        <div className="py-20 px-[5%] lg:px-[10%]">
+        {/* <div className="py-20 px-[5%] lg:px-[10%]">
           <div className="2xl:container mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -196,7 +196,7 @@ const MainPage = () => {
               </div>
             </motion.div>
           </div>
-        </div>
+        </div> */}
 
         {/* CTA Section */}
         <div className="py-20 px-[5%] lg:px-[10%]">
@@ -225,8 +225,8 @@ const MainPage = () => {
         </div>
       </div>
       <Whocanuse />
-      <Finance />
-      <Faq />
+      {/* <Finance /> */}
+      {/* <Faq /> */}
       <Footer />
     </>
   );

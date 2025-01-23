@@ -81,7 +81,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
-            <nav className="flex items-center space-x-6">
+            {/* <nav className="flex items-center space-x-6">
               {links.map((link, index) => (
                 <motion.a
                   key={index}
@@ -102,18 +102,18 @@ const Navbar = () => {
               whileTap={{ scale: 0.95 }}
             >
               Join Us
-            </motion.a>
+            </motion.a> */}
           </div>
 
           {/* Mobile Menu Button */}
-          <motion.button
+          {/* <motion.button
             onClick={() => setNavOpen(!navOpen)}
             className="lg:hidden p-2 text-white hover:bg-white/10 rounded-full transition-colors"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
             {navOpen ? <FaXmark size={24} /> : <BiMenu size={24} />}
-          </motion.button>
+          </motion.button> */}
         </motion.div>
 
         {/* Mobile Navigation */}
@@ -138,7 +138,7 @@ const Navbar = () => {
                   </motion.button>
                 </div>
 
-                <nav className="flex flex-col space-y-6 mt-10">
+                {/* <nav className="flex flex-col space-y-6 mt-10">
                   {links.map((link, index) => (
                     <motion.a
                       key={index}
@@ -162,7 +162,7 @@ const Navbar = () => {
                   >
                     Join Us
                   </motion.a>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           )}

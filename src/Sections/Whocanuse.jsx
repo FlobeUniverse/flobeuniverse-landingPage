@@ -10,7 +10,7 @@ const Whocanuse = () => {
           <h3 className="text-4xl lg:text-6xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 py-3 px-3 to-white">
             Who Can Use FlobeUniverse?
           </h3>
-          <p className="text-sm mt-2 lg:max-w-[50%] mx-auto">
+          <p className="text-sm lg:text-base mt-2 lg:max-w-[50%] mx-auto">
             Bringing everyone together for a seamless printing and design
             experience!
           </p>
