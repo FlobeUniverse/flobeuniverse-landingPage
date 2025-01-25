@@ -22,12 +22,12 @@ const Gallery = () => {
           Everything you need to success in the print industry
         </p>
         <div className="flex justify-center">
-          <div className="flex gap-3 mt-14 h-[30rem] lg:h-[50rem]">
+          <div className="flex gap-3 mt-14 h-[26rem] lg:h-[50rem]">
             <div className="grid grid-rows-2 gap-3">
               {images[0].map((image, index) => (
                 <div
                   key={index}
-                  className="w-[8rem] lg:w-[23rem] rounded-xl"
+                  className="w-[6rem] lg:w-[23rem] rounded-xl"
                   style={{
                     backgroundImage: `url(${image})`,
                     backgroundPosition: "center",
@@ -40,7 +40,7 @@ const Gallery = () => {
               {images[1].map((image, index) => (
                 <div
                   key={index}
-                  className="row-span-1 w-[8rem] lg:w-[23rem] rounded-xl"
+                  className="row-span-1 w-[6rem] lg:w-[23rem] rounded-xl"
                   style={{
                     backgroundImage: `url(${image})`,
                     backgroundPosition: "center",
@@ -53,7 +53,7 @@ const Gallery = () => {
               {images[2].map((image, index) => (
                 <div
                   key={index}
-                  className="w-[8rem] lg:w-[23rem] rounded-xl"
+                  className="w-[6rem] lg:w-[23rem] rounded-xl"
                   style={{
                     backgroundImage: `url(${image})`,
                     backgroundPosition: "center",

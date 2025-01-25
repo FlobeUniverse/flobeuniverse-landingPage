@@ -171,7 +171,7 @@ const MainPage = () => {
           {/* <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-72 h-72 bg-gradient-to-b from-blue-500 to-transparent rounded-full opacity-80"></div> */}
         </div>
         <Gallery />
-        <Whocanuse />
+        {/* <Whocanuse /> */}
 
         {/* CTA Section */}
         <div className="py-20 px-[5%] lg:px-[10%]">
