@@ -7,7 +7,7 @@ const Whocanuse = () => {
     <div className="px-[5%] lg:px-[15%]">
       <div className="2xl:container mx-auto text-center py-12 lg:py-32 text-white">
         <div>
-          <h3 className="text-4xl lg:text-6xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 py-3 px-3 to-white">
+          <h3 className="text-4xl lg:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 py-3 px-3 to-white">
             Who Can Use FlobeUniverse?
           </h3>
           <p className="text-sm lg:text-base mt-2 lg:max-w-[50%] mx-auto">
@@ -18,6 +18,7 @@ const Whocanuse = () => {
         <div className="my-20">
           {whocanuse.map((who, index) => (
             <div
+              key={index}
               className={`${
                 index % 2 == 0 ? "lg:flex-row" : "lg:flex-row-reverse"
               } ${index > 0 && "mt-32"} flex flex-col gap-5`}
